@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>不温柔的康</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://lotus-95.github.io/"/>
+  <updated>2020-07-19T11:26:24.483Z</updated>
+  <id>http://lotus-95.github.io/</id>
+  
+  <author>
+    <name>Wenkang Qin</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客测试</title>
+    <link href="http://lotus-95.github.io/2020/07/19/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
+    <id>http://lotus-95.github.io/2020/07/19/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/</id>
+    <published>2020-07-19T11:23:17.000Z</published>
+    <updated>2020-07-19T11:26:24.483Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;中文输入测试，英文，&lt;strong&gt;粗体&lt;/strong&gt;，&lt;em&gt;斜体&lt;/em&gt;，&lt;s&gt;删除&lt;/s&gt;，&lt;code&gt;引用&lt;/code&gt;，&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math
+        
+      
+    
+    </summary>
+    
+    
+      <category term="测试博客" scheme="http://lotus-95.github.io/categories/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="测试标签 1" scheme="http://lotus-95.github.io/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE-1/"/>
+    
+      <category term="测试标签 2" scheme="http://lotus-95.github.io/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE-2/"/>
+    
+  </entry>
+  
+</feed>
