@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lotus-95.github.io/"/>
-  <updated>2020-10-29T13:33:41.902Z</updated>
+  <updated>2020-10-29T13:50:18.493Z</updated>
   <id>http://lotus-95.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://lotus-95.github.io/2020/10/29/Fisher/"/>
     <id>http://lotus-95.github.io/2020/10/29/Fisher/</id>
     <published>2020-10-29T11:07:24.000Z</published>
-    <updated>2020-10-29T13:33:41.902Z</updated>
+    <updated>2020-10-29T13:50:18.493Z</updated>
     
     <summary type="html">
     
@@ -36,32 +36,6 @@
       <category term="模式识别" scheme="http://lotus-95.github.io/tags/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/"/>
     
       <category term="线性模型" scheme="http://lotus-95.github.io/tags/%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客测试</title>
-    <link href="http://lotus-95.github.io/2020/07/19/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
-    <id>http://lotus-95.github.io/2020/07/19/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/</id>
-    <published>2020-07-19T11:23:17.000Z</published>
-    <updated>2020-09-25T08:00:19.159Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;中文输入测试，英文，&lt;strong&gt;粗体&lt;/strong&gt;，&lt;em&gt;斜体&lt;/em&gt;，&lt;s&gt;删除&lt;/s&gt;，&lt;code&gt;引用&lt;/code&gt;，&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;msup&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;E = mc^2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.68333em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot; style=&quot;margin-right:0.05764em;&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.8141079999999999em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathdefault&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8141079999999999em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;引用&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-      <category term="测试博客" scheme="http://lotus-95.github.io/categories/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-      <category term="测试标签 1" scheme="http://lotus-95.github.io/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE-1/"/>
-    
-      <category term="测试标签 2" scheme="http://lotus-95.github.io/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE-2/"/>
     
   </entry>
   
