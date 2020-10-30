@@ -28,7 +28,7 @@
 <meta property="og:description" content="这篇是给北京大学工学院 2020 级本科生辅导 Python 的摘要。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-10-30T14:38:00.000Z">
-<meta property="article:modified_time" content="2020-10-30T15:52:18.488Z">
+<meta property="article:modified_time" content="2020-10-30T15:55:07.266Z">
 <meta property="article:author" content="Wenkang Qin">
 <meta property="article:tag" content="Python">
 <meta property="article:tag" content="工学院培训">
@@ -192,7 +192,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-10-30 22:38:00 / 修改时间：23:52:18" itemprop="dateCreated datePublished" datetime="2020-10-30T22:38:00+08:00">2020-10-30</time>
+              <time title="创建时间：2020-10-30 22:38:00 / 修改时间：23:55:07" itemprop="dateCreated datePublished" datetime="2020-10-30T22:38:00+08:00">2020-10-30</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -263,7 +263,7 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">prod</span><span class="params">(start, end, step=<span class="number">1</span>)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">iter</span><span class="params">(start, end, step, sum)</span>:</span></span><br><span class="line">        <span class="keyword">if</span> start &gt;= end:</span><br><span class="line">            <span class="keyword">return</span> sum</span><br><span class="line">        <span class="keyword">return</span> iter(start + step, end, step, sum * start) <span class="comment"># 这里改变了运算符号</span></span><br><span class="line">    <span class="keyword">return</span> iter(start, end, step, <span class="number">1</span>) <span class="comment"># 这里改变了累加变量的初始值</span></span><br></pre></td></tr></table></figure>
 <p>如你所见，这么写真的让人非常难受，特别是如果我想对我新定义的其他二元运算进行累积的时候，不得不再次复制这段代码，如果这些代码当中的 iter 需要改动，则我需要同时改动所有的地方，这样的冗余性是不好的。我们可以将上面两个过程都统一成如下形式，让两个函数都复用 iter，同时给 iter 引入一个用于传入运算符的参数：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">iter</span><span class="params">(start, end, step, sum, op)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> start &gt;= end:</span><br><span class="line">        <span class="keyword">return</span> sum</span><br><span class="line">    <span class="keyword">return</span> iter(start + step, end, step, op(sum, start))</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">sum</span><span class="params">(start, end, step)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> iter(start, end, step, <span class="number">0</span>, <span class="keyword">lambda</span> a, b: a + b)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">prod</span><span class="params">(start, end, step)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> iter(start, end, step, <span class="number">1</span>, <span class="keyword">lambda</span> a, b: a * b)</span><br></pre></td></tr></table></figure>
-<p>这就很完美了，如果我们需要引入一个新的二元运算的累积，直接调用上面的 iter 即可。同时如果我想修改累积过程，直接修改 iter 就能影响到所有的函数。以上所举出的例子，部分参考自 *<em>Structure and Interpretation of Computer Programs</em>[^4]，这本书的中文翻译版叫做《计算机程序的构造与解释》，是北京大学裘宗燕老师翻译的。</p>
+<p>这就很完美了，如果我们需要引入一个新的二元运算的累积，直接调用上面的 iter 即可。同时如果我想修改累积过程，直接修改 iter 就能影响到所有的函数。以上所举出的例子，部分参考自 <em>Structure and Interpretation of Computer Programs</em>[^4]，这本书的中文翻译版叫做《计算机程序的构造与解释》，是北京大学裘宗燕老师翻译的。</p>
 <h1>杂项内容</h1>
 <h2 id="编码规范问题">编码规范问题</h2>
 <p>Python 的 <a href="https://www.python.org/dev/peps/pep-0008" target="_blank" rel="noopener"><strong>PEP 8</strong></a> 当中描述了 Python 应当遵守的编码风格，一下是从 Python Tutorial 当中摘录的要点：</p>
