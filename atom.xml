@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lotus-95.github.io/"/>
-  <updated>2020-10-29T13:50:18.493Z</updated>
+  <updated>2020-10-30T15:34:10.574Z</updated>
   <id>http://lotus-95.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>北京大学 COE Python 辅导摘要 - 1</title>
+    <link href="http://lotus-95.github.io/2020/10/30/coe-py-training-1/"/>
+    <id>http://lotus-95.github.io/2020/10/30/coe-py-training-1/</id>
+    <published>2020-10-30T14:38:00.000Z</published>
+    <updated>2020-10-30T15:34:10.574Z</updated>
+    
+    <summary type="html">
+    
+      这篇是给北京大学工学院 2020 级本科生辅导 Python 的摘要。
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="http://lotus-95.github.io/categories/Python/"/>
+    
+    
+      <category term="Python" scheme="http://lotus-95.github.io/tags/Python/"/>
+    
+      <category term="工学院培训" scheme="http://lotus-95.github.io/tags/%E5%B7%A5%E5%AD%A6%E9%99%A2%E5%9F%B9%E8%AE%AD/"/>
+    
+  </entry>
   
   <entry>
     <title>线性分类器 - Fisher</title>
